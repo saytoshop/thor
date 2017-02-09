@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Clear Sans';
+    /* название одно */
+    src: url('../fonts/ClearSans-Regular.woff');
+    /* разные файлы */
+    font-weight: 400;
+    /* разная плотность */
+    font-style: normal;
+}
+
+body {
+    background-color: #fff;
+    max-width: 1600px;
+    margin: auto;
+}
+
+header {
+    background-color: #ebebeb;
+    text-align: right;
+    padding-right: 217px;
+}
+
+
+/********** header ********/
+
+.social {
+    margin: 0;
+    padding: 15px 0;
+    display: inline-block;
+    line-height: 1;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social li a {
+    background-image: url(../img/social.png);
+    width: 25px;
+    height: 17px;
+    display: inline-block;
+}
+
+.instagram {
+    background-position: 0 0;
+}
+
+.vk {
+    background-position: 97px 0;
+}
+
+.fb {
+    background-position: 60px 0;
+}
+
+.youtube {
+    background-position: 25px 0;
+}
+
+#lang {
+    display: inline-block;
+    color: #444444;
+    font-family: "Clear Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 88px;
+}
+
+#lang .dropdown-menu {
+    z-index: 2000;
+}
+
+#lang li {
+    display: inline-block;
+}
+
+#lang a {
+    color: #444444;
+    font-family: "Clear Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+/********** nav **************/
+
+.navbar-default {
+    background-color: #323232;
+    margin: 0;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 0 0 0 213px;
+}
+
+.navbar-brand img {
+    margin: 14px 0 18px;
+}
+.navbar-default .navbar-nav>li>a {
+  padding-top: 25px;
+padding-bottom: 26px;
+}
+.navbar-default .navbar-nav li a {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+
+}
+
+.navbar-default .navbar-nav li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
+    color: #f6871f;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f6871f;
+    background-color: initial;
+}
+
+.navbar-nav {
+    padding:0 215px 0 0;
+    float: right;
+}
+
+.nav>li>a:last-child {
+    padding-right: 0;
+}
+
+.navbar-default .navbar-nav li ul {
+    display: none;
+    background-color: #505050;
+    padding: 16px 13px 22px 19px;
+    width: 272px;
+}
+.navbar-default .navbar-nav li:hover ul {
+    display: block;
+    position: absolute;
+        top: 67px;
+
+
+}
+.navbar-default .navbar-nav ul li a{
+line-height: 36px;
+}
