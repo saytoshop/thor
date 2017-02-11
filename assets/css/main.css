@@ -12,6 +12,8 @@ body {
     background-color: #fff;
     max-width: 1600px;
     margin: auto;
+    font-family: "Clear Sans";
+    font-weight: 300;
 }
 
 header {
@@ -60,7 +62,6 @@ header {
 #lang {
     display: inline-block;
     color: #444444;
-    font-family: "Clear Sans";
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
@@ -99,18 +100,18 @@ header {
 .navbar-brand img {
     margin: 14px 0 18px;
 }
+
 .navbar-default .navbar-nav>li>a {
-  padding-top: 25px;
-padding-bottom: 26px;
+    padding-top: 25px;
+    padding-bottom: 26px;
 }
+
 .navbar-default .navbar-nav li a {
     font-size: 15px;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
     color: #ffffff;
-
-
 }
 
 .navbar-default .navbar-nav li {
@@ -129,7 +130,7 @@ padding-bottom: 26px;
 }
 
 .navbar-nav {
-    padding:0 215px 0 0;
+    padding: 0 215px 0 0;
     float: right;
 }
 
@@ -143,13 +144,91 @@ padding-bottom: 26px;
     padding: 16px 13px 22px 19px;
     width: 272px;
 }
+
 .navbar-default .navbar-nav li:hover ul {
     display: block;
     position: absolute;
-        top: 67px;
-
-
+    top: 67px;
 }
-.navbar-default .navbar-nav ul li a{
-line-height: 36px;
+
+.navbar-default .navbar-nav ul li a {
+    line-height: 36px;
+}
+
+
+/********************** slider ******************/
+
+.slide {
+    width: 100%;
+    height: 664px;
+    background-position-x: right;
+    background-size: cover;
+}
+
+.text-on-slide {
+    color: #323232;
+    width: 513px;
+    margin-right: 54%;
+    margin-top: 112px;
+    float: right;
+}
+
+.slide-caption {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.slide-text {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    margin: 40px 0;
+}
+
+.button-more {
+    background-color: #f6871f;
+    color: #ffffff;
+    font-family: "Clear Sans";
+    font-size: 26px;
+    line-height: 16px;
+    padding: 18px;
+}
+
+
+/********************************************/
+
+.h3 {
+    font-size: 40px;
+    line-height: 55px;
+    margin: 95px auto 130px;
+}
+
+.h3 strong {
+    font-weight: 700;
+}
+
+.container {
+    width: 1170px;
+}
+
+.image-with-text {
+    display: table;
+}
+
+.image-with-text .image {
+  display: table-cell;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.image-with-text .text {
+    display: table-row;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.image-with-text .caption {
+    font-weight: 700;
+    text-transform: uppercase;
 }
